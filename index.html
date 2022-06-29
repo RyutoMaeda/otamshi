@@ -5,7 +5,7 @@
     <script src="https://unpkg.com/three@0.137.4/examples/js/controls/OrbitControls.js"></script>
   </head>
 <body>
-    <h1>動く瞳</h1>
+    <h1>動く瞳</h1><br>
  <script>
       // ページの読み込みを待つ
       window.addEventListener('DOMContentLoaded', init);
@@ -80,6 +80,8 @@
         }
       }
     </script>
-    spriteを利用してずっとこちらを見つめる目を作った。<br>
+  説明：spriteを利用して瞳を動かしてみた。<br>
+  　　　眼と瞳はnew THREE.SpriteMaterial()でビルボードになっている。<br>
+  　　　ビルボードはそれぞれScale.set()でサイズを設定されている。
 </body>
 </html>
